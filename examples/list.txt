@@ -1,0 +1,42 @@
+Examples
+001 D0 blinks
+002 D0 and D1 blinks
+003 D0-D7 turning on LEDs - from D0 to D7
+004 D0-D7 turning on LEDs - from D0 to D7; turning off LEDs - from D7 to D0
+005 D0-D7 running light - from from D0 to D7
+006 D0-D7 running light - from D0 to D7 and from D7 to D0
+007 D0-D7 turning on LEDs - from D7 to D0
+008 D0-D7 turning on LEDs - from D7 to D0; turning off LEDs - from D0 to D7
+009 D0-D7 running light - from D7 to D0
+010 D0-D7 running light - from D7 to D0 and from D0 to D7
+011 D0-D7 four LEDs shift from D7 to D0
+012 D0-D7 four LEDs shift from D0 to D7
+013 D0-D7 two even LEDs shift from D7 to D0
+014 D0-D7 two even LEDs shift from D0 to D7
+015 D0-D7 animation
+016 RGB matrix - red
+017 RGB matrix - red, blue, green - one RGB LED
+018 RGB matrix - red, blue, green - four RGB LED
+019 RGB matrix - white - one RGB
+020 RGB matrix - multiplexing four RGB LED
+021 RGB matrix - multiplexing four RGB LED
+022 RGB matrix - multiplexing four RGB LED
+023 RGB matrix - multiplexing four RGB LED
+024 RGB matrix - multiplexing four RGB LED
+025 Buzzer and SW1
+026 Buzzer, SW1 and SW2 - different tone
+027 D0-D7, SW1, SW2 - Turning On / Off D0
+028 D0-D7, SW1, SW2 - while SW1 is pressed, light runs in direction from D0 to D7; while SW2 is pressed, light runs in direction from D7 to D0
+029 D0-D7, SW1, SW2 - for SW1 pressed, light moves in direction from D0 to D7 for one LED; for SW2 pressed, light moves in direction from D7 to D0 for one LED
+030 D0-D7, SW1, SW2 - for SW1 pressed, light moves in direction from D0 to D7 for one LED; for SW2 pressed, light moves in direction from D7 to D0 for one LED - debounce
+031 D0-D7, SW1, SW2 - when SW1 is short pressed, light moves in direction from D0 to D7 for one LED; when SW1 is pressed for 3 seconds, light moves in direction from D0 to D7 for one LED continuously; when SW2 is short pressed, light moves in direction from D7 to D0 for one LED; when SW2 is pressed for 3 seconds, light moves in direction from D7 to D0 for one LED continuously  - debounce
+032 D0-D7 and RV1 - running light - from D0 to D7 depending on potentiometer shaft position
+033 D0-D7 and RV1 - running light - from D7 to D0 depending on potentiometer shaft position
+034 D0-D7 and RV1 - turning on LEDs - from D0 to D7 depending on potentiometer shaft position
+035 D0-D7 and RV1 - turning on LEDs - from D7 to D0 depending on potentiometer shaft position
+036 D0-D7 and RV1 - turning on LEDs from the centre to the edge depending on potentiometer shaft position
+037 D0-D7 and RV1 - turning on LEDs from the edge to the centre depending on potentiometer shaft position
+038 RV1 and buzzer - Making a noise
+039 RV1, LCD - Show analogue input value
+040 RV1, LCD (I2C) - Show analogue input value 
+

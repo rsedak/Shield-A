@@ -1,0 +1,44 @@
+/* D0-D7
+ * running light - from D7 to D0 and from D0 to D7
+ * with register manipulation 
+ * 
+ * Created 2019 by Robert Sedak
+ * 
+ * This example code is in the public domain.
+ *  
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+ *  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+ *  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+ *  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR(S) OR 
+ *  CONTRIBUTOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+ *  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
+ *  THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+void setup() {
+   // initialize digital pins 
+  // 0, 1, 2, 3, 4, 5, 6 and 7 as an ouput
+  DDRD  = B11111111;
+  // initialize digital pin 12 as an output.
+  DDRB |= (1 << PB4);  
+
+  PORTD = B00000000;    // turn the LEDs D0 - D7 off
+  PORTB |= (1 << PB4);  // turn the MOSFET switch Q1 on
+} // end of setup function
+
+void loop() {
+  // turn the LEDs D7 - D0 on and off with 200ms delay
+  for ( int i = 7; i >= 0; i--) {
+    PORTD |= (1 << i);
+    delay(200);
+    PORTD &= ~(1 << i);
+  }
+  
+  // turn the LEDs D1 - D6 on and off with 200ms delay
+  for ( int i = 1; i <= 6; i++) {
+    PORTD |= (1 << i);
+    delay(200);
+    PORTD &= ~(1 << i);
+  }
+} // end of loop function
