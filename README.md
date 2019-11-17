@@ -24,14 +24,19 @@ Contributors
 Application
 -----------
 Robert Sedak made a video with examples programmed in Arduino IDE:
-[![Shield application](http://img.youtube.com/vi/B9CNlWZxvcw/0.jpg)](https://youtu.be/6tAJYVBwVqs "Shield-A examples")
+[![Shield application](images/default.jpg)](https://youtu.be/6tAJYVBwVqs "Shield-A examples")
+
+
+
+
+
 You can download examples from [here](examples/). 
 Examples which name ends with '_R' are solution with register maniputalion.
 
 
 Bill Of Materials
 -----------------
-- 1 ea., PCB from [PCBway.com](https://www.pcbway.com/project/shareproject/Shield-A.html)
+- 1 ea., PCB from [PCBway.com](https://www.pcbway.com/project/shareproject/Shield_A_for_Arduino_Uno.html)
 - 9 ea., 1K ohm 1/4W 1% Resistor (R1-R8, R13)
 - 2 ea., 100 ohm 1/4W 1% Resistor (R9, R10)
 - 2 ea., 560 ohm 1/4W 1% Resistor (R11-R12)
@@ -58,7 +63,7 @@ Bill Of Materials
 
 Design Files
 ------------
-This project is designed using Open Source [KiCad](http://kicad-pcb.org/). Design files are located in the [design_files](design_files/) folder.  You can see the [schematic](images/shield-a.png).
+This project is designed using Open Source [KiCad](http://kicad-pcb.org/). Design files are located in the [design_files](design_files/) folder.  You can see the [schematic](images/shield-a_schematic.png).
 
 
 Gerber files
@@ -69,7 +74,7 @@ You can download gerber files from [here](gerber/shield_a_v1.1.zip).
 
 Firmware
 --------
-This project can be programmed using the Open Source [Arduino](https://www.arduino.cc/) and [BASCOM-AVR(C)](https://www.mcselec.com/index.php?option=com_content&task=view&id=14&Itemid=103) .
+This project can be programmed using the Open Source [Arduino](https://www.arduino.cc/) and [BASCOM-AVR(C)](https://www.mcselec.com/index.php?option=com_content&task=view&id=14&Itemid=103).
 Arduino examples are located in [examples](examples/) folder.
 
 
