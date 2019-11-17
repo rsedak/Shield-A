@@ -86,7 +86,7 @@ TBD
 
 License
 -------
-[Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0 US)](https://creativecommons.org/licenses/by-sa/3.0/us/)
+[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 You are free to:
 - Share — copy and redistribute the material in any medium or format
