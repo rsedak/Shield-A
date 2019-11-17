@@ -24,7 +24,8 @@ Contributors
 Application
 -----------
 Robert Sedak made a video with examples programmed in Arduino IDE:
-[![Shield application](images/default.jpg)](https://youtu.be/6tAJYVBwVqs "Shield-A examples")
+
+[![Shield application](images/default.png)](https://youtu.be/6tAJYVBwVqs "Shield-A examples")
 
 
 
